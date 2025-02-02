@@ -1,14 +1,14 @@
 # Translations for the Avogadro molecular builder.
-# Copyright (C) 2006-2024 The Avogadro Project
+# Copyright (C) 2006-2025 The Avogadro Project
 # This file is distributed under the same license as the Avogadro package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Avogadro 1.98.1\n"
+"Project-Id-Version: Avogadro 1.99.0\n"
 "Report-Msgid-Bugs-To: avogadro-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-02-04 02:02+0000\n"
+"POT-Creation-Date: 2025-02-02 02:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2094,8 +2094,8 @@ msgstr ""
 #: qtplugins/commandscripts/command.cpp:64
 #: qtplugins/commandscripts/command.cpp:72
 #: qtplugins/configurepython/configurepython.cpp:99
-#: qtplugins/forcefield/forcefield.cpp:134
-#: qtplugins/forcefield/forcefield.cpp:136
+#: qtplugins/forcefield/forcefield.cpp:149
+#: qtplugins/forcefield/forcefield.cpp:151
 #: qtplugins/openbabel/openbabel.cpp:112
 #: qtplugins/plugindownloader/plugindownloader.cpp:41
 #: qtplugins/yaehmop/yaehmop.cpp:112
@@ -2454,7 +2454,7 @@ msgstr ""
 #. i18n: file: qtplugins/openbabel/conformersearchdialog.ui:196
 #. i18n: ectx: property (text), item, widget (QComboBox, scoringComboBox)
 #: qtplugins/cp2kinput/cp2kinputdialog.cpp:260
-#: qtplugins/forcefield/forcefield.cpp:82 :1205
+#: qtplugins/forcefield/forcefield.cpp:97 :1205
 msgid "Energy"
 msgstr ""
 
@@ -2815,39 +2815,39 @@ msgstr ""
 msgid "Render the force field visualizations for the atoms of the molecule."
 msgstr ""
 
-#: qtplugins/forcefield/forcefield.cpp:73
-#: qtplugins/forcefield/forcefield.cpp:318 qtplugins/openbabel/openbabel.cpp:47
+#: qtplugins/forcefield/forcefield.cpp:88
+#: qtplugins/forcefield/forcefield.cpp:333 qtplugins/openbabel/openbabel.cpp:47
 #: qtplugins/openbabel/openbabel.cpp:559
 msgid "Optimize Geometry"
 msgstr ""
 
-#: qtplugins/forcefield/forcefield.cpp:90
+#: qtplugins/forcefield/forcefield.cpp:105
 msgid "Forces"
 msgstr ""
 
-#: qtplugins/forcefield/forcefield.cpp:98
+#: qtplugins/forcefield/forcefield.cpp:113
 msgid "Configure…"
 msgstr ""
 
-#: qtplugins/forcefield/forcefield.cpp:110
+#: qtplugins/forcefield/forcefield.cpp:125
 msgid "Freeze Selected Atoms"
 msgstr ""
 
-#: qtplugins/forcefield/forcefield.cpp:117
+#: qtplugins/forcefield/forcefield.cpp:132
 msgid "Unfreeze Selected Atoms"
 msgstr ""
 
-#: qtplugins/forcefield/forcefield.cpp:136
+#: qtplugins/forcefield/forcefield.cpp:151
 msgid "&Calculate"
 msgstr ""
 
-#: qtplugins/forcefield/forcefield.cpp:353
+#: qtplugins/forcefield/forcefield.cpp:368
 #, qt-format
 msgid "%1 Energy = %L2"
 msgstr ""
 
-#: qtplugins/forcefield/forcefield.cpp:354
-#: qtplugins/forcefield/forcefield.cpp:400
+#: qtplugins/forcefield/forcefield.cpp:369
+#: qtplugins/forcefield/forcefield.cpp:415
 #: qtplugins/playertool/playertool.cpp:347
 #: qtplugins/playertool/playertool.cpp:379 qtplugins/surfaces/surfaces.cpp:912
 #: qtplugins/surfaces/surfaces.cpp:956 qtplugins/surfaces/surfaces.cpp:968
@@ -2855,7 +2855,7 @@ msgstr ""
 msgid "Avogadro"
 msgstr ""
 
-#: qtplugins/forcefield/forcefield.cpp:399
+#: qtplugins/forcefield/forcefield.cpp:414
 #, qt-format
 msgid "%1 Force Norm = %L2"
 msgstr ""
@@ -2874,15 +2874,15 @@ msgstr ""
 msgid "Autodetect (%1)"
 msgstr ""
 
-#: qtplugins/forcefield/obmmenergy.cpp:33
+#: qtplugins/forcefield/obenergy.cpp:67 qtplugins/forcefield/obmmenergy.cpp:33
 msgid "Universal Force Field"
 msgstr ""
 
-#: qtplugins/forcefield/obmmenergy.cpp:38
+#: qtplugins/forcefield/obenergy.cpp:72 qtplugins/forcefield/obmmenergy.cpp:38
 msgid "Generalized Amber Force Field"
 msgstr ""
 
-#: qtplugins/forcefield/obmmenergy.cpp:52
+#: qtplugins/forcefield/obenergy.cpp:86 qtplugins/forcefield/obmmenergy.cpp:52
 msgid "Merck Molecular Force Field 94"
 msgstr ""
 
